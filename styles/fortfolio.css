@@ -18,6 +18,8 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 .nav{
     color: #181818;
@@ -33,4 +35,15 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+/*header related styles*/
+.header{
+      background-color: #fff8f3;
+}
+.div{
+    background-color: #fff8f;
+}
+.banner{
+    padding: 20px 20px 30px 100px;
+    display: flex;
 }
